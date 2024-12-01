@@ -12,6 +12,7 @@ If you would like to run the code yourself, you can do so by running the noteboo
 
 All required packages can be installed using poetry, poetry.lock and pyproject.toml for more details.
 The all_matches.csv file is too large to be uploaded to github, but can be saved locally by running notebook 1.
+Models/ was also excluded from the repository due to its size, but can be saved locally by running notebooks 3. and 4.
 
 ## Modeling of Cricket Match Results
 
