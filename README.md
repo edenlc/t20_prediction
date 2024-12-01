@@ -33,19 +33,19 @@ My intial set targets were approximately half that of my basline linear regressi
 # File Structure
 
 Data : Contains all the data used in this project
-|-- t20s_json : Contains all of the raw t20 json files downloaded from cricksheet
-|-- saved_data : Contains all the processed data used in this project
+    |-- t20s_json : Contains all of the raw t20 json files downloaded from cricksheet
+    |-- saved_data : Contains all the processed data used in this project
 
 models : Contains all the trained models and saved distributions used in this project
-|-- match_models : Contains all the trained models for predicting the outcome of a cricket match
-|-- simulation_dists : Contains all the saved distributions used in the cricket simulation
-|-- simulation_models : Contains all the trained models used in the cricket simulation
+    |-- match_models : Contains all the trained models for predicting the outcome of a cricket match
+    |-- simulation_dists : Contains all the saved distributions used in the cricket simulation
+    |-- simulation_models : Contains all the trained models used in the cricket simulation
 
 Notebooks : Contains all the notebooks used in this project
-|-- data_investigation.ipynb : Initial inspection of raw data and conversion to csv
-|-- feature_extraction.ipynb : Extraction of features from the data
-|-- models.ipynb : Training and tuning of models
-|-- ball_modeling.ipynb : Simulation of cricket matches
+    |-- data_investigation.ipynb : Initial inspection of raw data and conversion to csv
+    |-- feature_extraction.ipynb : Extraction of features from the data
+    |-- models.ipynb : Training and tuning of models
+    |-- ball_modeling.ipynb : Simulation of cricket matches
 
 simulation : Contains the code for the cricket simulation
-|-- cricket_simulation.py : The cricket simulator class and methods
+    |-- cricket_simulation.py : The cricket simulator class and methods
