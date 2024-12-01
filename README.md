@@ -32,8 +32,6 @@ My intial set targets were approximately half that of my basline linear regressi
 
 # File Structure
 
-# File Structure
-
 Data : Contains all the data used in this project  
     |-- t20s_json : Contains all of the raw t20 json files downloaded from cricksheet  
     |-- saved_data : Contains all the processed data used in this project  
